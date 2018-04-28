@@ -30,6 +30,7 @@ class ViewController: UIViewController{
 
     @IBAction func notePressed(_ sender: UIButton) {
       
+      //call the sound
       chargeSound(tag: sender.tag)
         
     }
